@@ -1,0 +1,63 @@
+* {
+  font-family: 'OpenSans', sans-serif;
+}
+
+.text-center {
+  text-align: center;
+}
+
+html, body {
+  margin: 0;
+}
+nav {
+  list-style: none;
+  height: 50px;
+  background-color: #59ABE3;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+nav li {
+  display: inline-block;
+}
+nav li a {
+  line-height: 50px;
+  text-decoration: none;
+}
+
+div.galerija {
+  padding-top: 50px;
+}
+
+div.galerija ul {
+  /*padding: 40px;*/
+  margin: 0;
+  list-style: none;
+}
+
+div.galerija ul li {
+  margin: 20px;
+  float: left;
+}
+
+div.galerija ul li img {
+  width: auto; height: 200px;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+
+div.aptauja {
+  padding-top: 50px;
+}
+
+div.kontakti {
+  padding-top: 50px;
+}
+
+div.sakums {
+  padding-top: 50px;
+}
+
+div.map {
+  text-align: center;
+}
