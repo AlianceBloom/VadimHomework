@@ -7,12 +7,14 @@
 }
 
 html, body {
+  height: 100%;
   margin: 0;
+  background: url(img/bg.jpg) center center;
 }
 nav {
   list-style: none;
   height: 50px;
-  background-color: #59ABE3;
+  background-color: #2C3E50;
   position: fixed;
   top: 0;
   width: 100%;
@@ -21,6 +23,8 @@ nav li {
   display: inline-block;
 }
 nav li a {
+  color: white;
+  font-weight: bold;
   line-height: 50px;
   text-decoration: none;
 }
