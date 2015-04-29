@@ -1,7 +1,9 @@
 * {
   font-family: 'OpenSans', sans-serif;
 }
-
+.with-margin {
+  margin-top: 100px;
+}
 .text-center {
   text-align: center;
 }
@@ -21,6 +23,10 @@ nav {
 }
 nav li {
   display: inline-block;
+}
+nav li.right {
+  /*display: block;*/
+  /*float: right;*/
 }
 nav li a {
   color: white;
